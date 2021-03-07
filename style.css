@@ -1,0 +1,62 @@
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+body{
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(234, 235, 238);
+}
+.cv__wrap{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    align-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    box-shadow: 5px 7px 20px rgba(9, 21, 34, 0.25);
+}
+aside {
+    background:rgb(197, 217, 231);
+    padding: 30px;
+    width: 100%;
+    float: right;
+}
+h1{
+    color: rgb(72, 72, 97);
+    text-shadow: 5px 7px 20px rgba(9, 21, 34, 0.25);  
+}
+section h3{
+    color: rgb(72, 72, 97);
+    text-shadow: 5px 7px 20px rgba(9, 21, 34, 0.25);
+}
+img {
+    width:150px;
+    height: auto;
+    border-radius: 50%;
+    align-self: center;
+    box-shadow: 5px 7px 20px rgba(9, 21, 34, 0.25);
+    }
+ 
+section, aside, header, footer {
+    display: block
+}
+main {
+    padding: 30px;
+    background-color:snow ;
+}
+.git__image{
+    height: 20px;
+    width: 20px;
+}
+.project__link{
+    text-decoration: none;
+}
+li{text-align: justify;
+}
+summary{
+    text-align: justify;
+}
+
